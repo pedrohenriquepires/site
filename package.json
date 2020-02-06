@@ -1,5 +1,5 @@
 {
-  "name": "prova-arezzo-front-end",
+  "name": "site",
   "version": "1.0.0",
   "scripts": {
     "prettier": "npm run format:source",
