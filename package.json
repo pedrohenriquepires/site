@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "prettier": "npm run format:source",
-    "format:source": "prettier --config .prettierrc --write '{*.js,src/**/*.js,src/**/*.jsx}'",
+    "format:source": "prettier --config .prettierrc --write '{*.js,src/**/*.js,src/**/*.html,src/**/*.scss}'",
     "start": "webpack-dev-server -d --mode development --config ./config/webpack.config.js --watch",
     "build": "webpack -d --mode development --config ./config/webpack.config.js"
   },
