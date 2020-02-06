@@ -1,6 +1,6 @@
 {
   "{*.js,src/**/*.js,src/**/*.html,src/**/*.scss}": [
-    "prettier --config .prettierrc --write",
+    "npm run prettier",
     "git add"
   ]
 }
