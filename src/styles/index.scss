@@ -1,5 +1,4 @@
-// styles
+@import './_colors';
+@import './_variables';
 
-body {
-  background: red;
-}
+@import './general';

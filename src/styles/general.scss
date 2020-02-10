@@ -1,0 +1,48 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: $defaultFont, sans-serif;
+  background: linear-gradient(#27696d, #fff1d7), url(../images/background.svg);
+}
+
+.background {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.clouds {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.logo {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  color: $blue;
+
+  .name {
+    font-family: $logoFont;
+    font-size: 48px;
+    line-height: 44px;
+  }
+
+  .job {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 100;
+  }
+}
